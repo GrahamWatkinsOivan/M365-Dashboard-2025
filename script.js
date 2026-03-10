@@ -4,8 +4,8 @@ console.log('script.js is loading...');
 const msalConfig = {
     auth: {
         clientId: '8e1ef48a-7ae9-4eb4-9e8a-38d9c7a6c7dd', // Azure App Registration Client ID
-        authority: 'https://login.microsoftonline.com/2e32c063-a499-43c2-8bb9-77958c268433', // Northpoint Capital Management tenant ID
-        redirectUri: window.location.hostname === 'localhost' ? 'http://localhost:8080' : 'https://brave-cliff-0a95b2603.6.azurestaticapps.net'
+        authority: 'https://login.microsoftonline.com/2e32c063-a499-43c2-8bb9-77958c268433', // Almarai Group tenant ID
+        redirectUri: window.location.hostname === 'localhost' ? 'http://localhost:8080' : 'https://m365healthdashboard.almarai.online/'
     },
     cache: {
         cacheLocation: 'localStorage',
